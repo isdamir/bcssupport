@@ -5,7 +5,7 @@
  */
 /*
 Plugin Name: BCS Support
-Plugin URI: ""
+Plugin URI: https://github.com/iyf/bcssupport
 Description: This is a plugin for bcs.
 Author: HJin.me,iyf
 Version: 1.1
@@ -25,7 +25,7 @@ register_activation_hook(__FILE__, 'bcs_set_options');
 /**
  * 初始化选项
  */
-function bcs_set_options() {
+Function bcs_set_options() {
     $options = array(
         'bucket' => "",
         'ak' => "",
